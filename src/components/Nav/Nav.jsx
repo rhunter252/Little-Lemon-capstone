@@ -26,16 +26,16 @@ function Nav() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/">Menu</NavLink>
+              <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
-              <NavLink to="/">Reservations</NavLink>
+              <NavLink to="/specials">Specials</NavLink>
             </li>
             <li>
-              <NavLink to="/">Order Online</NavLink>
+              <NavLink to="/reservations">Reservations</NavLink>
             </li>
             <li>
-              <NavLink to="/">Login</NavLink>
+              <NavLink to="/order-online">Order Online</NavLink>
             </li>
           </ul>
         </div>

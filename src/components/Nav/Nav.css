@@ -56,7 +56,7 @@
   background-color: #574c4c;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .menu-icon {
     display: block;
     cursor: pointer;
