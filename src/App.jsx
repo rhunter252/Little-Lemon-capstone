@@ -1,16 +1,17 @@
-import { useState, useEffect } from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Nav from "./components/Nav";
+import { BrowserRouter } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home";
+import Nav from "./components/Nav/Nav";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
+      <BrowserRouter>
+        <Nav />
+        <Home />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
