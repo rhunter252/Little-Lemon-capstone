@@ -5,7 +5,7 @@ function Home() {
     <>
       <section className="hero-box">
         <div className="hero-div">
-          <h1>Little Lemon</h1>
+          <h1 className="hero-title">Little Lemon</h1>
           <h2>Chicago</h2>
           <p className="hero-desc">
             We are a family owned Mediterranean restaurant, focused on
