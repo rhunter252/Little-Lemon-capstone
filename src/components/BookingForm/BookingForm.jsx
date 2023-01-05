@@ -48,7 +48,6 @@ const BookingForm = () => {
   });
 
   useEffect(() => {
-    // console.log(response);
     if (response) {
       onOpen(response.type, response.message);
       if (response.type === "success") formik.resetForm();
