@@ -13,7 +13,7 @@
   padding: 200px 0 0 20%;
 }
 
-h1 {
+.hero-title {
   font-size: 5rem;
   margin: 0;
   text-shadow: 2px 2px #000;
