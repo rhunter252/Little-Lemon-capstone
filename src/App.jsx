@@ -4,7 +4,6 @@ import Nav from "./components/Nav/Nav";
 import "./App.css";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu/Menu";
-import Specials from "./pages/Specials";
 import Order from "./pages/Order";
 import Reservations from "./pages/Reservations";
 
@@ -15,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/specials" element={<Specials />} />
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/order-online" element={<Order />} />
       </Routes>

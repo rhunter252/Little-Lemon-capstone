@@ -29,9 +29,6 @@ function Nav() {
               <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
-              <NavLink to="/specials">Specials</NavLink>
-            </li>
-            <li>
               <NavLink to="/reservations">Reservations</NavLink>
             </li>
             <li>
