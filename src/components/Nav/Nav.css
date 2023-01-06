@@ -27,6 +27,7 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding-left: 15px;
 }
 
 .nav-elements ul li:not(:last-child) {
@@ -71,6 +72,7 @@
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
+    z-index: 100;
   }
 
   .nav-elements.active {

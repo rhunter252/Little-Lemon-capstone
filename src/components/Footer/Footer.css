@@ -49,7 +49,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  footer {
+    padding: 2rem 0;
+  }
+
   .footer-columns {
     flex-direction: column;
+    padding: 0 25px;
   }
 }

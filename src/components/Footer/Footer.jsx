@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="footer-columns">
         <div className="footer-column">
           <h3>About</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            malesuada dui et tellus aliquam, quis blandit nunc molestie. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada
-            dui et tellus aliquam, quis blandit nunc molestie.
+          <p style={{ marginBottom: "2rem" }}>
+            In addition to our mouthwatering food, we also offer a selection of
+            fine wines and other beverages to complement your meal. Our cozy and
+            welcoming atmosphere is perfect for a casual dinner with friends or
+            a romantic date night. We hope to see you soon at our restaurant!
           </p>
         </div>
-        <div className="footer-column">
+        <div className="footer-column" style={{ marginBottom: "2rem" }}>
           <h3>Links</h3>
           <ul>
             <li>
@@ -38,7 +38,10 @@ const Footer = () => {
           <h3>Social</h3>
           <ul>
             <li>
-              <a href="#">
+              <a
+                href="#"
+                style={{ display: "flex", alignItems: "center", gap: "6px" }}
+              >
                 <i className="BsTwitter">
                   <BsTwitter />
                 </i>
@@ -47,7 +50,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#"
+                style={{ display: "flex", alignItems: "center", gap: "6px" }}
+              >
                 <i className="BsFacebook">
                   <BsFacebook />
                 </i>
@@ -56,7 +62,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#"
+                style={{ display: "flex", alignItems: "center", gap: "6px" }}
+              >
                 <i className="BsInstagram">
                   <BsInstagram />
                 </i>
