@@ -59,8 +59,8 @@ const BookingForm = () => {
 
   return (
     <Box justifyContent="center" alignItems="flex-start" display="flex">
-      <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" id="Reservation">
+      <VStack w="1024px" alignItems="flex-start">
+        <Heading as="h1" id="Reservation" p={5}>
           Reservations
         </Heading>
         <Box p={6} rounded="md" w="100%">
