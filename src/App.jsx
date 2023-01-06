@@ -6,18 +6,23 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu/Menu";
 import Order from "./pages/Order";
 import Reservations from "./pages/Reservations";
+import { AlertProvider } from "./context/alertContext";
 
 function App() {
   return (
     <>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/reservations" element={<Reservations />} />
-        <Route path="/order-online" element={<Order />} />
-      </Routes>
-      <Footer />
+      <AlertProvider>
+        <main>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/reservations" element={<Reservations />} />
+            <Route path="/order-online" element={<Order />} />
+          </Routes>
+          <Footer />
+        </main>
+      </AlertProvider>
     </>
   );
 }
