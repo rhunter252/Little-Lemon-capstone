@@ -28,14 +28,6 @@ function App() {
           </main>
         </AlertProvider>
       </ChakraProvider>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/reservations" element={<Reservations />} />
-        <Route path="/order-online" element={<Order />} />
-      </Routes>
-      <Footer />
     </>
   );
 }
