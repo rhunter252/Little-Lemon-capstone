@@ -31,9 +31,9 @@ function Nav() {
             <li>
               <NavLink to="/reservations">Reservations</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/order-online">Order Online</NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
