@@ -1,6 +1,15 @@
 import "./Hero.css";
+import { useNavigate } from "react-router-dom";
+import Reservations from "../../pages/Reservations";
 
 function Home() {
+  let navigate = useNavigate();
+
+  const routeChange = () => {
+    let path = "/reservations";
+    navigate(path);
+  };
+
   return (
     <>
       <section className="hero-box">
@@ -11,7 +20,9 @@ function Home() {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button className="btn">Reserve a Table</button>
+          <button className="btn" onClick={routeChange}>
+            Reserve a Table
+          </button>
         </div>
       </section>
     </>
