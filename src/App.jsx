@@ -4,7 +4,6 @@ import Nav from "./components/Nav/Nav";
 import "./App.css";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu/Menu";
-import Order from "./pages/Order";
 import Reservations from "./pages/Reservations";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
@@ -15,13 +14,20 @@ function App() {
     <>
       <ChakraProvider>
         <AlertProvider>
-          <main>
+          <main
+            style={{
+              height: "100%",
+              backgroundImage: "url('../../assets/img/body-bg-pattern.png')",
+              backgroundRepeat: "repeat",
+              margin: "0 auto",
+              overflow: "hidden",
+            }}
+          >
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/menu" element={<Menu />} />
               <Route path="/reservations" element={<Reservations />} />
-              <Route path="/order-online" element={<Order />} />
             </Routes>
             <Footer />
             <Alert />

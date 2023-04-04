@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <nav className="navbar">
-      <div className="container">
+      <div className="nav-container">
         <div className="logo">
           <img src={littlelemonlogo} alt="logo" />
         </div>
@@ -23,17 +23,20 @@ function Nav() {
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink onClick={toggleMenu} to="/">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/menu">Menu</NavLink>
+              <NavLink onClick={toggleMenu} to="/menu">
+                Menu
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/reservations">Reservations</NavLink>
+              <NavLink onClick={toggleMenu} to="/reservations">
+                Reservations
+              </NavLink>
             </li>
-            {/* <li>
-              <NavLink to="/order-online">Order Online</NavLink>
-            </li> */}
           </ul>
         </div>
       </div>

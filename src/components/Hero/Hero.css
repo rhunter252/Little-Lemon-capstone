@@ -1,30 +1,47 @@
 .hero-box {
-  background-image: url("../../assets/food1.jpg") !important;
-  background-repeat: no-repeat !important;
+  min-height: 980px;
+  background-image: url("../../assets/img/hero/bg.png");
   background-size: cover;
-  width: 100% !important;
-  height: 100vh !important;
-  object-fit: cover;
-  color: #fff;
+  background-position: right;
 }
 
-.hero-div {
-  width: 50%;
-  padding: 200px 0 0 20%;
+.hero-container {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-pretitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: medium;
+  font-style: italic;
+  margin-bottom: 5px;
 }
 
 .hero-title {
-  font-size: 5rem;
-  margin: 0;
-  text-shadow: 2px 2px #000;
+  margin-bottom: 25px;
+  font-size: 3.75rem;
+  font-weight: bold;
+  color: #fff;
 }
 
-.hero-desc {
+.hero-subtitle {
   color: #fff;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 30px 0;
-  text-shadow: 2px 2px #000;
+  max-width: 540px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 button {
