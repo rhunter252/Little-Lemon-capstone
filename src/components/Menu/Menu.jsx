@@ -1,4 +1,5 @@
 import "./Menu.css";
+import { Link } from "react-router-dom";
 // import data
 import { menuData } from "../../data";
 // import motion
@@ -90,7 +91,9 @@ const Menu = () => {
               })}
             </div>
           </div>
-          <button className="btn menu-btn">{btnText}</button>
+          <button className="btn menu-btn">
+            <Link to="/menu">{btnText}</Link>
+          </button>
         </div>
       </motion.div>
     </section>

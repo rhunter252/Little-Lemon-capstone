@@ -90,8 +90,7 @@ export const menuData = {
 export const teamData = {
   pretitle: "our team",
   title: "Meet Our Chef",
-  sub1: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.",
-  sub2: "Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.",
+  sub1: " The staff at Little Lemon Mediterranean Restaurant are a team of warm, attentive professionals dedicated to providing an exceptional dining experience. With a keen eye for detail and a passion for Mediterranean flavors, they ensure every guest leaves with a smile on their face and a newfound love for their diverse and delectable offerings.",
   name: "Nikos Nomaste",
   occupation: "executive chef",
   signatureImg: SignatureImg,
@@ -105,24 +104,24 @@ export const testimonialData = {
   slider: [
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "Little Lemon Mediterranean Restaurant is an absolute gem! The warm atmosphere, delightful service, and mouth-watering dishes make it the perfect place to satisfy your Mediterranean cravings. The falafel platter is a must-try!",
       image: Avatar1,
       name: "Rick Thompson",
-      occupation: "CEO of Delightful",
+      occupation: "Cookbook Author",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "I had an exceptional dining experience at Little Lemon. The hummus was heavenly, and the shawarma was out of this world. I can't wait to bring my friends and family to this vibrant Mediterranean oasis.",
       image: Avatar2,
       name: "John Doe",
-      occupation: "CEO of Delightful",
+      occupation: "Editor at Eats Out Magazine",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "A refreshing culinary adventure awaits at Little Lemon Mediterranean Restaurant. The colorful decor and attentive staff complement the deliciously diverse menu. Don't miss their signature baklava for a sweet finish to a fantastic meal.",
       image: Avatar3,
       name: "Henry A.",
-      occupation: "CEO of Delightful",
+      occupation: "Culinary Travel Blogger and TV Host",
     },
   ],
 };

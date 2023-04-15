@@ -1,7 +1,7 @@
 footer {
   background: #fef7e5;
   color: #333;
-  padding: 2em;
+  padding: 4rem 2rem;
   margin-top: auto;
 }
 
@@ -46,6 +46,13 @@ footer {
 .footer-copyright {
   margin-top: 2em;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  footer {
+    padding: 4rem 2rem;
+    margin-top: auto;
+  }
 }
 
 @media (max-width: 768px) {

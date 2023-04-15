@@ -41,6 +41,11 @@
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 640px) {
+  .team-text {
+    padding: 0 1rem;
+  }
+}
 @media (min-width: 1024px) {
   .team-section {
     top: 480px;
